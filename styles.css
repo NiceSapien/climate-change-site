@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background-color: #15a73a;
+    color: white;
+    padding: 20px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.hero h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.causes {
+    background: white;
+    padding: 40px;
+}
+
+.causes h2 {
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+.cause-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.cause {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.cause img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cause h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #27ae60;
+}
+
+.effects {
+    background: #dff9fb;
+    padding: 40px;
+}
+
+.effects h2 {
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+.effects li {
+    font-size: 1.2em;
+    padding: 5px;
+    text-align: left;
+}
+
+.action {
+    background: #f8c291;
+    padding: 40px;
+}
+
+.action h2 {
+    font-size: 2em;
+}
+
+
+
+.action li {
+    font-size: 1.2em;
+    padding: 5px;
+    text-align: left;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}]
